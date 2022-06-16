@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&family=Roboto&display=swap');
+html,body{
+    font-family: 'Chakra Petch', sans-serif;
+    background-color: #612378;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    background-color: #612378;
+    border: 1px solid white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+}
+.navlist{
+    display: flex;
+    list-style: none;
+    padding: 5px;
+    text-decoration: none;
+}
+.navlist a{
+    color: white;
+    text-decoration: none;
+    padding-right: 20px;
+    cursor:pointer;
+}
+.navlist a:hover{
+  color: gray;
+}
+.main{
+   padding-top: 50px;
+    margin: 80px;
+}
+.pre{
+    padding-top:30px;
+    text-align: center;
+    height: 80vh;
+    
+}
+.pre h1{
+   font-size: 3rem;
+}
+.pre a{
+    
+    margin: 0 auto;
+    background-color: white;
+    text-decoration: none;
+    color: #612378;
+    padding: 20px;
+    border-radius: 50px;
+    cursor:pointer;
+  
+}
+.pre a:hover{
+  background-color:gray;
+  color:white;
+}
+.about{
+    padding-top: 70px;
+    height: 40vh;
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    grid-template-areas:'ab-text ab-img';
+}
+.ab-text{
+    padding-top:20px;
+    text-align: left;
+}
+.ab-img{
+  padding-top:20px;
+  text-align:right;
+}
+.ab-img img{
+  width:300px;
+  max-width:100%;
+  border-radius:5%;
+  border:solid 1px white;
+}
+.rev{
+  height:50vh;
+}
+.rev h2{
+  text-align:center;
+}
+.rev b{
+  font-size:20px;
+}
+.rev ul{
+  display: grid;
+  grid-template-columns:1fr 1fr 1fr;
+  grid-template-areas:'one two three';
+  column-gap:15px;
+}
+.rev li{
+  text-align:center;
+  list-style: none;
+}
+.rev ul li img{
+  width:200px;
+  max-width:100%;
+  border-radius:50%;
+  border:solid 1px white;
+}
+.res{
+  padding-top:70px;
+  height:80vh;
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  grid-template-areas:'res-img res-text';
+  column-gap:50px;
+}
+.res-img{
+  padding-top:40px;
+  text-align:left; 
+}
+.res-img img{
+  width:500px;
+  max-width:100%;
+  border:solid 1px white;
+}
+.res-text{
+  padding-top:40px;
+  text-align:left;
+}
